@@ -7,7 +7,7 @@ exports.startApp = function() {
   require('./globals').loadConfigs();  // Pre-loading any pages and api libraries rather than searching for them at runtime
 
   var app = express();
-  app.set('port', _siteopts.port || 3000);
+  app.set('port', process.env.PORT || _siteopts.port || 3000);
   app.disable('x-powered-by');
 
   // Handlebars engine:
