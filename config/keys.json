@@ -1,0 +1,10 @@
+{
+  "CMS": {
+    "googleMapKey": ""
+  },
+  "SMTP": {
+    "server": "",
+    "login": "",
+    "password": ""
+  }
+}

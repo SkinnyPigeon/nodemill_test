@@ -1,0 +1,11 @@
+{
+  "cmspath": "/cms/",
+  "siteEnabled": false,
+  "port": 3000,
+  "allowIPChange": true,
+  "name": "nodemill_test",
+  "db": {
+    "type": "nedb"
+  },
+  "salt": "933cadd05aa86b0fe50ceb358d789866"
+}
